@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - DZNEmptyDataSet (1.8.1)
+  - MJRefresh (3.2.0)
+  - YCBlankSlate (1.0.0):
+    - DZNEmptyDataSet
+
+DEPENDENCIES:
+  - AFNetworking
+  - MJRefresh
+  - YCBlankSlate (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - DZNEmptyDataSet
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  YCBlankSlate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  YCBlankSlate: 6ca89e0715b73c3b0384d80095c2c3ad02412347
+
+PODFILE CHECKSUM: c4888c8f5d25ee84a9c707406021aafc03209685
+
+COCOAPODS: 1.8.0
